@@ -1,10 +1,13 @@
-// import UserList from './components/UserList';
-import Form from './forwardRefs/Form';
+
+
+import CounterTemplate from './components/counter/CounterTemplate';
+
+// 2part
 function App() {
   return (
     <>
-      {/* <UserList /> */}
-      <Form />
+
+      <CounterTemplate />
     </>
   );
 }
